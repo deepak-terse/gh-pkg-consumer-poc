@@ -1,6 +1,7 @@
 import HelloFromFrontend from '@deepak-terse/hello-ui';
+import React from 'react';
 
-function App() {
+const App: React.FC = () => {
   return (
     <div>
       <h1>GitHub Package Consumer POC</h1>
@@ -8,6 +9,6 @@ function App() {
       <HelloFromFrontend />
     </div>
   );
-}
+};
 
 export default App; 
